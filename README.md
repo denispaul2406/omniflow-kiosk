@@ -582,6 +582,9 @@ Ensure these are set in your production environment:
 
 - **Vercel** - Recommended for Next.js apps
 - **Netlify** - Easy deployment with CI/CD
+  - Uses `netlify.toml` for configuration
+  - Automatically uses npm (not pnpm) for package management
+  - Requires `@netlify/plugin-nextjs` plugin (configured in netlify.toml)
 - **AWS Amplify** - Enterprise hosting
 - **Self-hosted** - Docker containerization
 
